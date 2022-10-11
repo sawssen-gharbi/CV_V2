@@ -9,21 +9,37 @@ class MainActivity3 : AppCompatActivity() {
     lateinit var textFullName : TextView
     lateinit var textEmail : TextView
     lateinit var textAge : TextView
+    lateinit var textRadio : TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
 
-        textFullName = findViewById<EditText>(R.id.editTextFullName)
-        textEmail = findViewById<EditText>(R.id.editTextEmail)
-        textAge = findViewById<EditText>(R.id.editTextAge)
+        textFullName = findViewById(R.id.textViewFullName)
+        textEmail = findViewById(R.id.textViewEmail)
+        textAge = findViewById(R.id.textViewAge)
+
+        textRadio = findViewById(R.id.textViewGender)
+
 
         val fullName = intent.getStringExtra("fullName")
         val email = intent.getStringExtra("email")
         val age = intent.getStringExtra("age")
 
-        textFullName.text = fullName
-        textEmail.text = email
-        textAge.text = age
+        val gender = intent.getStringExtra("ch")
+
+
+
+
+
+        textFullName.text = "Full name : " + fullName
+        textEmail.text = "Email: " + email
+        textAge.text = "Age : " + age
+        textRadio.text = "Gender : " + gender
+
+
+
+
 
     }
 }

@@ -13,8 +13,8 @@ class Splash : AppCompatActivity() {
 
        val handler = Handler(Looper.getMainLooper())
         handler.postDelayed({
-            val intent1 = Intent(this,MainActivity::class.java) // this heya ili ahna feha , mainactivity ili besh nemchiwelha
-            startActivity(intent1)
+            val intent = Intent(this,MainActivity::class.java) // this heya ili ahna feha , mainactivity ili besh nemchiwelha
+            startActivity(intent)
             finish() // terja3 ili splash not home ken na3mloush finish
         },3000)
     }
