@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-            startActivity(Intent(this,MainActivity3::class.java)
+            startActivity(Intent(this,MainActivity2::class.java)
                 .putExtra("fullName",fullName.text.toString())
                 .putExtra("email",email.text.toString())
                 .putExtra("age",age.text.toString())

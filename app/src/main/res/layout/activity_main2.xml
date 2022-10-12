@@ -117,7 +117,7 @@
         app:layout_constraintVertical_bias="0.134">
 
         <CheckBox
-            android:id="@+id/checkBox12"
+            android:id="@+id/checkBoxMusic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Music"
@@ -125,13 +125,13 @@
             tools:layout_editor_absoluteY="433dp" />
 
         <CheckBox
-            android:id="@+id/checkBox11"
+            android:id="@+id/checkBoxSport"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sport" />
 
         <CheckBox
-            android:id="@+id/checkBox10"
+            android:id="@+id/checkBoxGames"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Games"
@@ -154,7 +154,7 @@
         app:layout_constraintVertical_bias="0.176">
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkBoxArabic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Arabic"
@@ -162,13 +162,13 @@
             tools:layout_editor_absoluteY="238dp" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/checkBoxFrench"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="French" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBoxEnglish"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="English" />
@@ -184,7 +184,7 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SUBMIT"
