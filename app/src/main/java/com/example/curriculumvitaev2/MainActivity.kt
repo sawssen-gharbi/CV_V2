@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
+import com.example.curriculumvitaev2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
         lateinit var radiog : RadioGroup
@@ -35,8 +36,6 @@ class MainActivity : AppCompatActivity() {
                 .putExtra("email",email.text.toString())
                 .putExtra("age",age.text.toString())
                 .putExtra("ch",radioButton.text.toString()))
-
-                    finish()
 
 
         }

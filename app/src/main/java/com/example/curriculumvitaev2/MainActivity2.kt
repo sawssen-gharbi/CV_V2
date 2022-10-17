@@ -57,10 +57,11 @@ class MainActivity2 : AppCompatActivity() {
                 music.isChecked -> "Music"
                 else -> "None"
             }
+
             startActivity(
 
 
-                Intent(this,MainActivity3::class.java)
+                Intent(this,MainActivity4::class.java)
                     .putExtra("Android", androidSkill.progress.toString())
                     .putExtra("iOS", iosSkill.progress.toString())
                     .putExtra("Flutter", flutterSkill.progress.toString())
@@ -72,6 +73,11 @@ class MainActivity2 : AppCompatActivity() {
                     .putExtra("Hobbies", hobby))
 
             finish()
+
+
+
         }
+
+
     }
 }

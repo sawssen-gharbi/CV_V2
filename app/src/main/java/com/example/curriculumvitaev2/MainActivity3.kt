@@ -1,5 +1,6 @@
 package com.example.curriculumvitaev2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
@@ -52,6 +53,7 @@ class MainActivity3 : AppCompatActivity() {
 
         textLang.text = "Language : " + language
         textHob.text = "Hobby: " + hobbies
+
 
 
 
